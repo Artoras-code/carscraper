@@ -15,5 +15,5 @@ class Vehiculo(Base):
     descripcion = Column(String)
     url_publicacion = Column(String)
     fuente = Column(String)
-    created_at = Column(DateTime, server_default=func.now)
+    created_at = Column(DateTime, server_default=func.now())
     disponible = Column(Boolean, default=True)
