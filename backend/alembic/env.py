@@ -19,6 +19,7 @@ if config.config_file_name is not None:
 # from myapp import mymodel
 # target_metadata = mymodel.Base.metadata
 from app.models.vehiculos import Vehiculo
+from app.models.usuario import Usuario
 from app.database import Base
 
 target_metadata = Base.metadata
